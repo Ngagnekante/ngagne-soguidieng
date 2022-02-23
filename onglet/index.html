@@ -1,0 +1,64 @@
+<HTML>
+
+<HEAD>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</HEAD>
+
+<BODY onload="TabClick(0);">
+
+    <!-- insertion des tables et un nom de classe identique ainsi que les ID ....  -->
+
+    <TABLE CELLPADDING=0 CELLSPACING=0 ALIGN="center" STYLE="width: 750px">
+        <TR>
+            <TD CLASS="TabBorderBottom TabCommon TabOff" ID="tabs" NAME="tabs" ONCLICK="TabClick(0);">
+                <h4>HTML</h4>
+            </TD>
+            <TD CLASS="TabBorderBottom TabCommon TabOff" ID="tabs" NAME="tabs" ONCLICK="TabClick(1);">
+                <h4>CSS</h4>
+            </TD>
+            <TD CLASS="TabBorderBottom TabCommon TabOff" ID="tabs" NAME="tabs" ONCLICK="TabClick(2);">
+                <h4>JAVASCRIPT</h4>
+            </TD>
+            <TD CLASS="TabBorderBottom TabCommon TabOff" ID="tabs" NAME="tabs" ONCLICK="TabClick(3);">
+                <h4>PHP</h4>
+
+            </TD>
+        </TR>
+
+        <TR>
+
+
+            <!-- utilisation de div pour mettre en forme le document -->
+
+            <TD COLSPAN=4 CLASS="TabContent TabActiveBackground TabActiveBorderLeftRight TabContentBottom">
+                <DIV ID="Content" NAME="Content">HTML signifie « HyperText Markup Language » qu'on peut traduire par «
+                    langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu
+                    d'une page web et sa structure. D'autres technologies sont utilisées avec HTML pour décrire la
+                    présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).</DIV>
+
+                <DIV ID="Content" NAME="Content">Les feuilles de style en cascade, généralement appelées CSS de
+                    l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des
+                    documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium
+                    (W3C).</DIV>
+
+                <DIV ID="Content" NAME="Content">JavaScript (souvent abrégé en « JS ») est un langage de script léger,
+                    orienté objet, principalement connu comme le langage de script des pages web.</DIV>
+
+                <DIV ID="Content" NAME="Content">
+                    PHP (officiellement, ce sigle est un acronyme récursif pour PHP Hypertext Preprocessor ) est un
+                    langage de scripts généraliste et Open Source, spécialement conçu pour le développement
+                    d'applications web. Il peut être intégré facilement au HTML.</DIV>
+            </TD>
+        </TR>
+    </TABLE>
+
+</BODY>
+
+</HTML>
+
+
+
+<!-- Pour le fonctionnement, c'est simple, les contenus de tout les onglet seront cachés, seul celui qui est ouvert sera affiché.
+Lorsque quelqu'un change d'onglet, une fonction Javascript modifie le style du bouton de l'ancien onglet, cache son contenu, modifie le style du bouton de l'onglet choisi et affiche son contenu. -->

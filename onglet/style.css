@@ -1,0 +1,10 @@
+.TabCommon {FONT: 18px arial; COLOR: #e93737; PADDING: 5px; FONT-WEIGHT: bold; TEXT-ALIGN: center; HEIGHT: 0px; WIDTH: 100px;}
+   
+    .TabContentBottom {PADDING: 10px; BORDER-BOTTOM: 2px outset #99ccff;}
+    .TabOff {CURSOR: hand; BACKGROUND-COLOR: #e5f500; BORDER-LEFT: 1px solid #BBBBBB;}
+    .TabOn {CURSOR: default; BORDER-TOP: 2px outset #D1D1D1; COLOR: #000000;}
+    .TabBorderBottom{BORDER-BOTTOM: 2px inset #d1d1d1;}
+    .TabActiveBorderLeftRight{BORDER-RIGHT: 2px outset #D1D1D1; BORDER-LEFT: 2px outset #D1D1D1;}
+    .TabActiveBackground {BACKGROUND-COLOR: #F7F8F3;}
+    h4 {
+margin-bottom: aUto;    }
